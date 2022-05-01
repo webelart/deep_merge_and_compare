@@ -1,5 +1,1 @@
-const {isObject, isArray, isSameType} = require('./helpers');
-
-module.exports = deepMerge;
-
-function deepMerge(obj1, obj2) {}
+module.exports = function deepMerge(obj1, obj2) {}
