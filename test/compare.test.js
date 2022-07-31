@@ -32,7 +32,7 @@ describe('Deep Compare testing', () => {
         ).to.equal(false);    
     });
 
-    it('6. Expects different length of arrays is to be equal', () => {
+    it('6. Expects different length of arrays is not to be equal', () => {
         expect(
             deepCompare([1, 2, 3, 4], [1, 2, 3]),
         ).to.equal(false);    
